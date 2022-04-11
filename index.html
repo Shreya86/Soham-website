@@ -97,7 +97,7 @@
             </p>
           </div>
 
-          <div class="col-lg-7 swiper mySwiper" data-aos="zoom-out" data-aos-delay="200">
+          <div class="col-lg-7 swiperr mySwiper" data-aos="zoom-out" data-aos-delay="200">
             <div class="wrapper">
             <div class="slider carousel owl-carousel">
               <div class="card"> 
@@ -221,7 +221,7 @@
             </p>
             <h2 class="text-centr mt-20">AI Foundry Platform</h2>
             <div class="app-img">
-            <img src="assets/img/AI-Foundry-Platform.jpg">
+            <img src="assets/img/AI-Foundry-Platform.jpg" class="img-responsive">
             </div>
           </div>
         </div>
@@ -443,7 +443,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
   <!-- owl Carousel -->
 
@@ -454,18 +454,22 @@
       autoplay: true,
       autoplayTimeout: 2000, //2000ms = 2s;
       autoplayHoverPause: true,
+      margin:45,
+      items: 1,
+      nav: false,
       responsive: {
         0:{
-          items:1,
-          nav: false
+          items: 1,
+          margin: 20,
+          stagePadding: 20,
         },
         600:{
           items:1,
-          nav: false
+          margin: 20,
+          stagePadding: 20,
         },
         1000:{
-          items:1,
-          nav: false
+          items:1.5
         }
       }
     });
