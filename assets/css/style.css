@@ -344,6 +344,42 @@ section {
   font-family: 'Lato', sans-serif;
 }
 
+  /* section only ACHIEVEMENTS */
+.section-title_1 {
+  padding-bottom: 40px;
+}
+
+.section-title_1 h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #717171;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-title_1 h2::after {
+  content: "";
+  width: 120px;
+  height: 1.5px;
+  display: inline-block;
+  background: #ffffff;
+  margin: 4px 10px;
+}
+
+.section-title_1 p {
+  margin: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+ /* section only ACHIEVEMENTS */
+
 .magtop-25 {
     padding-top: 65px;
   }
@@ -459,7 +495,6 @@ section {
   outline: none;
   border-radius: 14px;
   border: 2px solid #0072bc!important;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
   transition: all 0.3s ease;
 }
 .owl-dot.active,
@@ -505,6 +540,7 @@ section {
     max-width: 1000px;
   }
   .owl-stage { margin-left: 0}
+  
   
 }
 
@@ -615,7 +651,7 @@ section {
 .differentiators .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #FFFFFF;
   transition: all 0.3s ease-in-out;
 }
 .differentiators .title {
@@ -794,7 +830,7 @@ section {
 
 .achievements .icon-box {
   width: 674px;
-  height:278px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   color: #FFFFFF;
