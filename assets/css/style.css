@@ -845,7 +845,7 @@ section {
 
 .achievements .icon-box {
   width: 674px;
-  height: 300px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   color: #FFFFFF;
@@ -864,7 +864,7 @@ section {
 .achievements .icon-box h4 {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 28px;
 }
 .achievements .icon-box h4 {
   color: #fff;
