@@ -271,6 +271,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero .btn-get-started, #hero .btn-watch-video {
     font-size: 18px;
   }
+  #hero {
+  background: url("../img/hero-bg_1.jpg") top right;
+  height: 80vh;   
+  }
+  
 }
 @media (max-height: 500px) {
   #hero {
@@ -803,6 +808,7 @@ section {
   .fms .text-center.mt-40 {
     margin-top: 20px;
   }
+  
 
   .fms .text-center.mt-40 p {
       font-size: 16px;
