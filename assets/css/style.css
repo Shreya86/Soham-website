@@ -617,6 +617,63 @@ section {
 
 
 /*--------------------------------------------------------------
+# Use Cases
+--------------------------------------------------------------*/
+
+.UseCases .content p {
+  font-size: 16px;
+  color: #898989;
+}
+
+.slider .card1 .content1{
+  padding: 20px 10px;
+}
+
+
+.slider .card1 {
+  flex: 1;
+  margin: 10px;
+  background: #fff;
+  /* box-shadow: 6px 2px 6px 2px rgba(0, 0, 0, 0.1); */
+  box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 30px 20px;
+}
+
+.card1 .content1 .title1{
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+.card1 .content1 .sub-title1{
+  font-size: 36px;
+  color: #0677B9;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1 .content1 p{
+  text-align: center;
+  margin: 0 0;
+}
+
+.UseCases .icon {
+  margin-bottom: 10px;
+
+
+}
+.UseCases .icon i {
+  font-size: 24px;
+  line-height: 1;
+  color: #0079b9;
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+
+/*--------------------------------------------------------------
 # OUR DIFFERENTIATORS
 --------------------------------------------------------------*/
 
